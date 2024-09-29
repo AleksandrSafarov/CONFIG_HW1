@@ -96,7 +96,7 @@ def execute(event=None):
         elif command[0] == 'cd':
             if len(command) > 1:
                 vfs.cd(command[1])
-                result = ""
+                result = f"Move to {command[1]}"
             else:
                 result = "Directory not specified"
         elif command[0] == 'pwd':
