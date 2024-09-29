@@ -1,8 +1,6 @@
 import unittest
 import tarfile
-import os
 import tempfile
-from io import BytesIO
 from main import VirtualFileSystem
 
 class TestVirtualFileSystem(unittest.TestCase):
