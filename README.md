@@ -28,4 +28,6 @@ tar. Эмулятор должен работать в режиме GUI.
 1. Склонировать проект<br/>
 2. Перейти в папку с проектом в терминале<br/>
 3. Ввести команду<br/>
-```python main.py --user <имя_пользователя> --tar vfs.tar --log session-log.xml```
+```
+python main.py --user <имя_пользователя> --tar vfs.tar --log session-log.xml
+```
